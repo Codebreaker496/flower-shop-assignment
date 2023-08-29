@@ -1,0 +1,49 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+/* common shared styles */
+.primary-btn {
+    background-color: #E55473;
+    border-radius: 5px;
+    border: 0px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 43px;
+}
+
+/* Nav styles */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-logo {
+    font-size: 45px;
+    color: #272727;
+    font-weight: 900;
+}
+
+.logo-clr {
+    color: #E55473;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+    color: #272727;
+    font-size: 18px;
+}
+
+nav li:hover {
+    color: #E55473;
+
+}
