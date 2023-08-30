@@ -259,5 +259,35 @@ nav li:hover {
     font-family: Lato;
     font-size: 16px;
     font-weight: 400;
+
+}
+
+/* section-5-insta styles */
+
+.section-5 {}
+
+.instagram-text {
+    text-align: center;
+    margin-top: 128px;
+}
+
+.ins-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.ins-description {
     
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    
+}
+
+.instagram-img {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 48px;
 }
