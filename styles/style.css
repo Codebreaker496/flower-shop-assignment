@@ -306,3 +306,35 @@ nav li:hover {
     margin: 128px 240px;
     border-radius: 8px;
 }
+
+.deals-main {
+    align-items: center;
+    text-align: center;
+}
+
+.deal-title{
+
+    font-size: 40px;
+}
+
+.deal-comments{
+    font-size: 18px;
+    margin-bottom: 48px;
+}
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    
+}
+input{
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    border: none;
+}
+
+.email {
+    padding-left: 20px;
+}
