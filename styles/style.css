@@ -279,10 +279,10 @@ nav li:hover {
 }
 
 .ins-description {
-    
+
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
-    
+
 }
 
 .instagram-img {
@@ -290,4 +290,19 @@ nav li:hover {
     justify-content: center;
     gap: 24px;
     margin-top: 48px;
+}
+
+/* section-6 styles */
+
+.section-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1440px;
+    height: 449px;
+    margin: 128px 240px;
+    border-radius: 8px;
 }
