@@ -83,13 +83,96 @@ nav li:hover {
 
 .banner .banner-image {
     width: 635px;
-    /* margin-left: 100px; */
+
+}
+
+/* Featured section styles */
+
+.featured-text {
+    text-align: center;
+    margin-top: 178px;
+    margin-bottom: 48px;
+}
+
+.f-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.f-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+
 }
 
 .rect-img {
+    display: flex;
+    justify-content: center;
+
+}
+
+.rect-1 {
     width: 464px;
     height: 538px;
     flex-shrink: 0;
     background: #A7216226;
     border-radius: 300px 300px 0px 0px;
+    margin-right: 24px;
+}
+
+.rect-2 {
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    background: rgba(5, 151, 160, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    margin-right: 24px;
+}
+
+.rect-3 {
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+/* .featured-img-1 {
+
+    display: grid;
+    place-items: bottom;
+    /* position: absolute;
+    bottom: 0px; */
+/* vertical-align: text-bottom; */
+
+/* Delivery support section */
+.delivery-section {
+    margin: 128px 0px;
+}
+
+.delivery {
+    max-width: 1440px;
+    height: 240px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+
+.menu-1 {
+
+    text-align: center;
+}
+
+.menu-2 {
+
+    text-align: center;
+}
+
+.menu-3 {
+    text-align: center;
 }
